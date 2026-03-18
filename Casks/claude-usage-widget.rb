@@ -1,6 +1,6 @@
 cask "claude-usage-widget" do
-  version "1.2.22"
-  sha256 "467297f99b155ebbba20a52a04273e653f699ff7fdaa85dd5625124858d29589"
+  version "1.2.23"
+  sha256 "702ffd890c1801682f715c227a1b52a05946ed05c8aef25275a1c253c5f64735"
 
   url "https://github.com/eylonshm/claude-usage-widget/releases/download/v#{version}/ClaudeUsage-#{version}.dmg"
   name "Claude Usage Widget"
