@@ -1,9 +1,9 @@
 cask "claude-meter" do
-  version "1.2.27"
-  sha256 "7ef852d550e2e0994cf5737bc38b8a8d7181f91605355e13b437a1103489467d"
+  version "1.2.28"
+  sha256 "b1587a18876e7f7fac27ecb6c6e7bd32cc0dfbe2588c124821d324dac034d077"
 
   url "https://github.com/eylonshm/claude-meter/releases/download/v#{version}/ClaudeMeter-#{version}.dmg"
-  name "Claude Meter"
+  name "Claude Meter Widget"
   desc "macOS menu bar app and desktop widgets for monitoring Claude Code usage and quota"
   homepage "https://github.com/eylonshm/claude-meter"
 
