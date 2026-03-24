@@ -20,6 +20,9 @@ cask "claude-meter" do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Claude Meter.app"],
                    sudo: false
+    system_command "/usr/bin/pluginkit",
+                   args: ["-a", "#{appdir}/Claude Meter.app/Contents/PlugIns/ClaudeMeterWidgetExtension.appex"],
+                   sudo: false
   end
 
   zap trash: [
