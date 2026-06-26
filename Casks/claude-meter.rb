@@ -1,6 +1,6 @@
 cask "claude-meter" do
-  version "1.2.28"
-  sha256 "b1587a18876e7f7fac27ecb6c6e7bd32cc0dfbe2588c124821d324dac034d077"
+  version "1.2.29"
+  sha256 "31d68aed6b5dec7b40520711ef56282f12d080d572fcd90561d3413b34579661"
 
   url "https://github.com/eylonshm/claude-meter/releases/download/v#{version}/ClaudeMeter-#{version}.dmg"
   name "Claude Meter Widget"
@@ -19,9 +19,6 @@ cask "claude-meter" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Claude Meter.app"],
-                   sudo: false
-    system_command "/usr/bin/pluginkit",
-                   args: ["-a", "#{appdir}/Claude Meter.app/Contents/PlugIns/ClaudeMeterWidgetExtension.appex"],
                    sudo: false
   end
 
